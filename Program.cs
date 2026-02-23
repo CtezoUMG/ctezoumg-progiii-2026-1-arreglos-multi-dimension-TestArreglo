@@ -15,11 +15,18 @@ for (int i = 0; i < n; i++)
 }
 
 // --- INICIO DE LÓGICA DEL ALUMNO ---
-// Instrucción: El alumno debe encontrar el valor máximo del arreglo 'numeros'
-int maximo = numeros[0]; 
 
-// TODO: Implementar el algoritmo de búsqueda aquí
+int max = arreglo[0];
 
+for (int i = 1; i < arreglo.Length; i++)
+{
+    if (arreglo[i] > max)
+    {
+        max = arreglo[i];
+    }
+}
+
+Console.WriteLine(max);
 
 // --- FIN DE LÓGICA DEL ALUMNO ---
 
