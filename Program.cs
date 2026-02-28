@@ -10,7 +10,7 @@ for (int i = 0; i < n; i++)
     numeros[i] = int.Parse(entrada[i]);
 }
 int maximo = numeros[0];
-for (int i = 1; i < numeros.Length; i++)
+for (int i = 1; i < n; i++)
 {
     if (numeros[i] > maximo)
     {
